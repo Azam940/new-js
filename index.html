@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Ismingiz...</h2>
+        <input type="text" placeholder="Ismingiz" id="nameInput">
+        <button onclick="checkName()">Tekshirish</button>
+        <h2>Email</h2>
+        <input type="email" id="emailInput" placeholder="Emailingizni kiriting">
+        <button onclick="checkEmail()">Tekshirish</button>
+        <h2>Yoshingiz...</h2>
+        <input type="number" id="ageInput" placeholder="Yoshingiz">
+        <button onclick="checkAge()">Tekshirish</button>
+    </div>
+    <!-- royxatdan otish formasi -->
+
+    <div>
+        <h3>Oddiy Kalkulyator</h3>
+
+        <div class="flex">
+
+            <input type="text" id="number1" placeholder="1-sonni kiriting"><br><br>
+            <input type="text" id="operator" placeholder="+, -, *, / kiriting"><br><br>
+            <input type="text" id="number2" placeholder="2-sonni kiriting"><br><br>
+            
+            <button onclick="calculate()">Hisobla</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
