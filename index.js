@@ -109,8 +109,8 @@ function calculate() {
 // konkulyator//
 
 function checkType() {
-      const input = document.getElementById('inputValue').value;
-      console.log(input);
+      const input = document.getElementById('checkType').value;
+      console.log('Aniqlangan turi: ', typeof inputValue)
       let parsedValue;
 
       try {
